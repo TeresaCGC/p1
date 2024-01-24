@@ -1,1 +1,26 @@
-mi primera practica
+Practica 1
+
+Comandos a probar:
+    git clone
+    git status
+    git add
+    git commit
+    git push
+    git checkout
+
+Primero se realiza una copia del siguiente repositorio:https://github.com/gitt-3-pat/p1
+Para ello se emplean los comandos:
+git clone https://github.com/gitt-3-pat/p1: Se copia este repositorio ya existente en github en mi fork.
+ls p1: Se muestra los archivos que contiene el fork
+cat p1/README:md: muestra el contenido del único documento por el momento del fork.
+
+A continuación se crea git.txt: Este paso se realiza desde el explorador. 
+Comandos que se ejecutan para guardar los cambios:
+git add .: Prepara el Git para los cambios que se van a realizar
+git status: Muestra los ficheros que hay en el fork
+git commit -m "he añadido el fichero": Confirma la subida y hace que se guarde en el historial
+git push origin main: Se sube el fichero del fork al main que es lo que se muestra públicamente.
+
+Todos estos comandos no tiene sentido emplearlos si no hay ningún fichero subido o que se quiera modificar.
+
+Si ningún fichero ha sido creado en p1-fork, todos ellos dan error
