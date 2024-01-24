@@ -23,4 +23,3 @@ git push origin main: Se sube el fichero del fork al main que es lo que se muest
 
 Todos estos comandos no tiene sentido emplearlos si no hay ningún fichero subido o que se quiera modificar.
 
-Si ningún fichero ha sido creado en p1-fork, todos ellos dan error
